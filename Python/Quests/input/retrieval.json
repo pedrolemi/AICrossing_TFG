@@ -1,0 +1,13 @@
+{
+    "quest_giver_name": "Alejandra",
+    "item": {
+        "id": 2,
+        "amount": 3
+    },
+    "reward": {
+        "friendship_points": 3
+    },
+    "item_provider_name": "Memo",
+    "item_receiver_name": "Alejandra",
+    "topic": "alimentar animales"
+}

@@ -1,0 +1,5 @@
+El personaje que entrega la misión, [quest_giver_name], es [quest_giver_description].
+El OBJETIVO de la mision es que el jugador entregue a [character_name] [item_amount] [item_id], que [quest_giver_name] le proporciona.
+[character_name] es [character_description].
+La relación entre [quest_giver_name] y [character_name] es [relationship].
+El tema principal de la misión es: [topic].

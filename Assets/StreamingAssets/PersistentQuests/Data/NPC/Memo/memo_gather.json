@@ -1,0 +1,12 @@
+{
+    "quest_giver_name": "Memo",
+    "item": {
+        "id": 9,
+        "amount": 3
+    },
+    "reward": {
+        "friendship_points": 1
+    },
+    "description": "Tengo una gran cantidad de calabazas en mi jardín. Si te apetece, puedes quedarte con 3, ya que no las necesito.",
+    "title": "La abundancia de las calabazas"
+}

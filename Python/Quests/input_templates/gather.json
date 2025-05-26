@@ -1,0 +1,11 @@
+{
+    "quest_giver_name": "Nombre1",
+    "item": {
+        "id": 2,
+        "amount": 5
+    },
+    "reward": {
+        "friendship_points": 3
+    },
+    "topic": "..."
+}

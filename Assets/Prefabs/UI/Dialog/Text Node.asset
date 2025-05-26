@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32534fd2d00e3f246a1f1382279d2e4f, type: 3}
+  m_Name: Text Node
+  m_EditorClassIdentifier: 
+  baseNextNodes:
+  - {fileID: 11400000, guid: 4149307c6432b0846b650d9d6ed95c9f, type: 2}
+  characterName: Pepe the frog
+  text: Lorem ipsum dolor sit amet consectetur adipiscing elit duis dui, massa integer
+    praesent leo conubia curabitur parturient congue, eros bibendum luctus felis
+    mus nisl vehicula orci. Consequat justo vulputate inceptos malesuada parturient
+    cum dui eu quisque placerat, mus semper etiam suscipit facilisis feugiat at laoreet
+    tempus. Duis purus luctus hendrerit lobortis ante dapibus sem
+  canAnswer: 0

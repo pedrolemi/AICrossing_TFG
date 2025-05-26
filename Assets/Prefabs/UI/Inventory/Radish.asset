@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf8d7b5e7e2eef4eb4cf4a200a9945e, type: 3}
+  m_Name: Radish
+  m_EditorClassIdentifier: 
+  id: 10
+  itemName: "R\xE1bano"
+  pluralItemName: "R\xE1banos"
+  icon: {fileID: 21300000, guid: c837390cd4d6c86499fcf3d06b6e88f2, type: 3}
+  keyItem: 0

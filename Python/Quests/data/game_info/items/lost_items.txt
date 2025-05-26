@@ -1,0 +1,7 @@
+15:hacha:hachas
+16:martillo:martillos
+17:pico:picos
+18:caña:cañas
+19:pala:palas
+20:espada:espadas
+21:regadera:regaderas

@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "quests": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "item_id": {
+                        "type": "string",
+                        "description": "El tipo de objeto que entregar."
+                    },
+                    "topic": {
+                        "type": "string",
+                        "description": "Una palabra que describe el tema en el que está centrado la misión."
+                    }
+                },
+                "required": ["item_id", "topic"]
+            }
+        },
+        "required": ["quests"]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "type": "object",
+    "properties": {
+        "quests": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "quest_giver_description": {
+                        "type": "string",
+                        "description": "La descripción del personaje que entrega la misión al jugador."
+                    },
+                    "item_id": {
+                        "type": "string",
+                        "description": "El tipo de objeto que entregar."
+                    },
+                    "character_description": {
+                        "type": "string",
+                        "description": "La descripción del personaje al que hay que entregarle el objeto."
+                    },
+                    "relationship": {
+                        "type": "string",
+                        "description": "El tipo relación entre el personaje que entrega la misión al jugador y el personaje al que hay entregarle el objeto."
+                    },
+                    "topic": {
+                        "type": "string",
+                        "description": "Una palabra que describe el tema en el que está centrado la misión."
+                    }
+                },
+                "required": ["quest_giver_description", "item_id", "character_description", "relationship", "topic"]
+            }
+        },
+        "required": ["quests"]
+    }
+}

@@ -1,0 +1,3 @@
+El OBJETIVO de la mision es que el jugador simplemente consiga [item_amount] [item_id].
+No es necesario entregar estos objetos a nadie; su único propósito es ser recolectados.
+El tema principal de la misión es: [topic].

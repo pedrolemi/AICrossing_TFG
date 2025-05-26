@@ -1,0 +1,9 @@
+1:te sientes muy estresado
+1:te preocupas con facilidad
+1:te alteras fácilmente
+1:cambias de humor repentinamente
+1:actúas con ansiedad
+0:te mantienes emocionalmente estable
+0:te mantienes feliz
+0:te tomas las cosas con calma
+0:actúas con tranquilidad

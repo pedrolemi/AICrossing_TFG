@@ -1,0 +1,16 @@
+{
+    "name": "LLM",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6fe82083b5de58a4189b56eca2ff02e2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

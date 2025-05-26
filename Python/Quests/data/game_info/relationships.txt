@@ -1,0 +1,9 @@
+0:neutral, simplemente se conocen sin ningún tipo de vínculo o sentimiento fuerte
+1:tensa, se sienten incómodos o desconfiados el uno del otro
+2:algo distante, no son amigos, pero tampoco tienen una mala opinión el uno del otro
+3:amistosa, se respetan y disfrutan de la compañía mutua
+4:cercana, se consideran buenos amigos y confían plenamente el uno en el otro
+
+Esteban Memo 3
+Esteban Alejandra 4
+Alejandra Memo 3

@@ -1,0 +1,8 @@
+1:priorizas las tareas importantes
+1:eres detallista
+1:disfrutas de seguir un horario fijo
+1:guardas las cosas en su lugar
+0:tiendes al desorden
+0:sueles dejar las cosas sin atender
+0:procrastinas con frecuencia
+0:no sueles completar las tareas

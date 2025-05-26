@@ -1,0 +1,8 @@
+2:zanahoria:zanahorias
+4:huevo:huevos
+5:col:coles
+6:botella de leche:botellas de leche
+9:calabaza:calabazas
+11:roca:rocas
+13:manojo de trigo:manojos de trigo
+14:tablón de madera:tablones de madera

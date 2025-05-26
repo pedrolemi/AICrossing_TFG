@@ -1,0 +1,13 @@
+{
+    "quest_giver_name": "Esteban",
+    "item": {
+        "id": 17,
+        "amount": 1
+    },
+    "reward": {
+        "friendship_points": 3
+    },
+    "location_name": "acantilado",
+    "description": "Perdí mi pico favorito en lo alto del acantilado y no sé qué hacer... ¿podrías ayudarme a recuperarlo? Acabo de recibir un nuevo encargo, pero sin esa herramienta no puedo seguir trabajando.",
+    "title": "Un pico perdido, un trabajo en peligro"
+}

@@ -1,0 +1,14 @@
+{
+    "quest_giver_name": "Alejandra",
+    "item": {
+        "id": 2,
+        "amount": 2
+    },
+    "reward": {
+        "friendship_points": 2
+    },
+    "item_provider_name": "Memo",
+    "item_receiver_name": "Alejandra",
+    "description": "Quiero preparar una deliciosa tarta de zanahoria para celebrar la recogida de otoño, pero me faltan 2 zanahorias. Memo siempre tiene las mejores verduras en su huerto, ¿podrías pedirle unas para mí?",
+    "title": "Zanahorias frescas para un dulce otoño"
+}

@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "quests": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "quest_giver_description": {
+                        "type": "string",
+                        "description": "La descripción del personaje que entrega la misión al jugador."
+                    },
+                    "item_id": {
+                        "type": "string",
+                        "description": "El tipo de objeto que entregar."
+                    },
+                    "topic": {
+                        "type": "string",
+                        "description": "Una palabra que describe el tema en el que está centrado la misión."
+                    }
+                },
+                "required": ["quest_giver_description", "item_id", "topic"]
+            }
+        },
+        "required": ["quests"]
+    }
+}

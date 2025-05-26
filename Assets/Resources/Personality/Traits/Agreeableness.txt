@@ -1,0 +1,8 @@
+1:te interesas por los demás
+1:sientes compasión por los demás
+1:empatizas con los demás
+1:ayudas a otras personas
+0:ignoras a los demás
+0:actúas sin compasión
+0:insultas y menosprecias a las personas
+0:manipulas a las personas

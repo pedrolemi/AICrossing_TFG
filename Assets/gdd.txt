@@ -1,0 +1,70 @@
+﻿Descripción
+AI Crossing es un juego de simulación social que transcurre en un pequeño pueblo, en el que el jugador podrá relacionarse con el resto de personajes, ya sea hablando con ellos, o completando recados que le encarguen para mejorar su relación con los mismos.
+Mecánicas del jugador
+- Movimiento: el jugador se desplaza por el escenario a una velocidad constante, reproduciendo una animación.
+- Interactuar con un vecino: si el jugador está lo suficientemente cerca de un vecino, puede interactuar con él. Esto desplegará un menú en el que el jugador podrá elegir qué interacción quiere realizar (hablar con él, ver qué recados tiene, o dejar de interactuar con él).
+- Hablar con un vecino: al hablar con un vecino, se mostrará la interfaz de diálogo y el vecino le dirá cosas al jugador dependiendo de su personalidad, relación con el jugador, momento del día
+- Abrir la lista de misiones: el jugador podrá abrir la lista de misiones para ver cuáles tiene pendientes
+- Completar una misión: el jugador completará una misión si cumple los requisitos de la misma
+- Recolectar objetos: el jugador puede recoger ciertos recursos que se encuentran en el escenario, como madera, piedra, cultivos o productos animales. Realizar estas acciones tarda un tiempo determinado, tras el cual el recurso aparecerá en su inventario. Para recoger cultivos, el jugador tiene que ir al huerto; para recoger madera o piedra, tiene que ir a un tronco o una piedra grande, y para recoger productos animales tiene que ir al corral.
+- Abrir el inventario: el jugador podrá abrir su inventario para comprobar qué objetos tiene.
+- Seleccionar un objeto: si el jugador tiene algún objeto, puede seleccionarlo desde el inventario. Esto desplegará un menú con el que podrá elegir si equipárselo, tirarlo, o no hacer nada.
+- Equipar / desequipar un objeto: el jugador comenzará a llevar el objeto que haya seleccionado:
+- Tirar un objeto: la cantidad que tiene el jugador del objeto que se tire se reducirá en 1. Si se reduce a 0, el objeto desaparecerá del inventario.
+- Abrir la lista de relaciones: el jugador podrá abrir la lista de relaciones con los vecinos para ver cómo se lleva con ellos.
+
+Mecánicas de los vecinos
+- Relación con el jugador: los vecinos inician con una relación neutral hacia el jugador, y dependiendo de la manera en la que este interactúe con ellos, su relación puede mejorar o empeorar.
+- Dar recados al jugador: al interactuar con ellos, el jugador puede elegir, de entre la lista de misiones del vecino, alguna tarea como entregarle un objeto o llevarle algo a otro vecino. Esto mejorará la relación entre el vecino y el jugador.
+- Realizar tareas específicas: dependiendo del momento del día, el vecino puede tener cosas que hacer en un lugar específico. una vez haya llegado al lugar, pasará un tiempo en ese sitio realizando la tarea (aunque no se muestre visualmente) hasta que llegue el momento del día en el que tenga que dejar de hacerla.
+- Caminar hacia un punto específico: el vecino navega desde su posición actual hasta un punto específico.
+- Merodear: el vecino se pasea alrededor del mapa, evitando los obstáculos que hay en el escenario, pero sin un destino específico.
+- Memoria: si el vecino estaba realizando una tarea con anterioridad y el jugador la interrumpe, recuerda lo que estaba haciendo y puede continuar con la tarea que estaba realizando anteriormente.
+- Dormir y despertarse: por la noche, algunos vecinos pueden irse a sus casas a dormir y el jugador no puede interactuar con ellos hasta que se despierten. Estos vecinos se despertarán a horas determinadas del día.
+
+Historia y objetivo
+El personaje principal se acaba de mudar a una pequeña aldea en una isla apartada. Su principal objetivo es conocer a los vecinos del lugar y ganarse su confianza, con la esperanza de encontrar su lugar en su nuevo entorno. Durante los próximos 3 días, deberá interactuar con los habitantes, ofrecer su ayuda cuando sea necesario, y demostrar que puede encajar en la comunidad. Si no consigue integrarse en ese tiempo, tomará la decisión de regresar a su antigua vida.
+
+Vecinos
+- Esteban: artesano y amigo de Alejandra. Lleva toda la vida fabricando cosas con cualquier material que encuentra por la aldea. Le gusta especialmente usar piedra y madera para sus creaciones, así que también se encarga de talar árboles y picar piedra para el resto del pueblo. De vez en cuando, Alejandra y él le gastan bromas a Memo.
+La rutina diaria de Esteban comienza de 7 a 12, cuando se dedica a su labor de artesano, picando piedra y talando árboles. De 12 a 23 disfruta de un paseo por el pueblo. Por la noche, entre las 23 y las 7 se va a dormir a su hora, una casa morada situada al oeste del pueblo.
+Entre las misiones que Esteban ofrece al jugador, se encuentran una misión de lost item, en la que se solicita encontrar su pico favorito perdido cerca del acantilado, y una de request, en la que pide traerle 4 cuatro tablones de madera para un proyecto que está llevando a cabo en el pueblo.
+- Alejandra: granjera y amiga de Esteban. Desde pequeña le han fascinado los animales, así que sus padres le construyeron un corral al lado de casa y le regalaron una vaca y una gallina de las que recoge productos todos los días. De vez en cuando, Esteban y ella le gastan bromas a Memo.
+La rutina diaria de Alejandra comienza de 4 a 7, cuando se dirige al pozo para recoger agua para sus animales. De 7 a 17 se dedica a atenderlos en el corral. Por la tarde, se toma un descanso dando vueltas por la plaza oeste del pueblo. Finalmente, entre las 22 y las 4 se va a dormir a su casa pequeña roja, ubicada al lado del corral.
+Entre las tareas que Alejandra ofrece al jugador, se encuentran una misión de delivery, en la que pide llevarle 3 huevos de su granja a Esteba, y una de retrieval, en la que solicita al jugador que le pida a Memo 2 zanahorias para poder preparar una tarta de zanahoria.
+- Memo: agricultor y actual alcalde. Lleva cultivando verduras desde antes de hacerse alcalde, aunque tampoco tiene una vida muy ajetreada en su nuevo  puesto y sigue dedicando la mayor parte de su tiempo a su huerto. Es quien más tiempo lleva en la aldea y ha visto crecer a Esteban y Alejandra, que de vez en cuando le gastan bromas.
+La rutina diaria de Memo comienza de 5 a 15, cuando se dirige al huerto para ocuparse de sus verduras y disfrutar del tiempo allí. Después, de 15 a 20 suele visitar la cascada del pueblo para relajarse, aunque en ocasiones prefiere quedarse en el huerto. Finalmente, se acuesta temprano en su casa morada ubicada, las más grande del pueblo debido a su posición como alcalde, ubicada al este del mismo.
+Entre las tareas que Memo ofrece al jugador, se encuentra una misión de gather, donde le dice al jugador que puede coger 3 calabazas de su huerto, ya que han crecido demasiadas.
+
+Objetos
+- Remolacha: se obtiene recogiéndola en el huerto.
+- Lechuga: se obtiene recogiéndola en el huerto.
+- Zanahoria: se obtiene recogiéndola en el huerto.
+- Coliflor: se obtiene recogiéndola en el huerto.
+- Huevo: se obtiene en el corral recogiéndolo de una gallina.
+- Col: se obtiene recogiéndola en el huerto.
+- Leche: se obtiene en el corral recogiéndola de un vaca.
+- Chirivía: se obtiene recogiéndola en el huerto.
+- Patata: se obtiene recogiéndola en el huerto.
+- Calabaza: se obtiene recogiéndola en el huerto.
+- Rábano: se obtiene recogiéndolo en el huerto.
+- Roca: se obtiene picando una roca grande.
+- Girasol: se obtiene recogiéndolo en el huerto.
+- Trigo: se obtiene recogiéndolo en el huerto.
+- Tronco: se obtiene talando un tronco.
+- Hacha: se obtiene si algún vecino la ha perdido.
+- Martillo: se obtiene si algún vecino lo ha perdido.
+- Pico: se obtiene si algún vecino lo ha perdido.
+- Caña de pescar: se obtiene si algún vecino la ha perdido.
+- Pala: se obtiene si algún vecino la ha perdido.
+- Espada: se obtiene si algún vecino la ha perdido.
+
+Misiones:
+- Recolectar: el jugador tendrá que recolectar una cantidad de un objeto específico. En cuanto recolecte todos los objetos necesarios, la misión se completará automáticamente.
+-  Solicitar: el jugador tendrá que recolectar una cantidad de un objeto específico y entregárselo a un NPC, interactuando con este mientras tiene dicho objeto equipado.
+- Entregar: el jugador recibirá un objeto del NPC que le da la misión, que tendrá que entregarle a otro NPC interactuando con este mientras tiene dicho objeto equipado.
+- Recuperar: El jugador tendrá que interactuar con el NPC indicado en la misión para que le entregue un objeto, que después tendrá que devolverle al NPC que le haya entregado la misión, interactuando con este mientras tiene dicho objeto equipado.
+- Objeto perdido: el objeto indicado en la misión aparecerá en alguna parte del mapa. El jugador tendrá que encontrar el objeto y devolvérselo al NPC que le da la misión, interactuando con este mientras tiene el objeto equipado
+
+Diseño del mapa
+La aldea en la que se desarrolla el juego está en una pequeña isla. Más o menos en el centro de la aldea, tirando hacia la derecha, hay un río que atraviesa la aldea de arriba abajo, con un puente en la parte  superior. En la parte inferior de la aldea, a la izquierda, hay dos casas rojas. A la derecha de estas casas, pegado al río, está el corral, con una vaca, de la que se puede obtener leche, y una gallina, de la que se pueden obtener huevos. En la parte superior, a la izquierda, hay una casa morada grande. A la derecha de la casa morada grande hay una casa pequeña verde y una roja. Entre las dos casas pequeñas hay un pozo, y a la derecha de la casa pequeña roja está el puente. A la derecha del puente hay una casa azul grande, y debajo de esta casa, el huerto, en el que se pueden recoger verduras. Encima de la casa morada hay un tronco, del que se puede obtener madera, y una roca grande, de la que se puede obtener piedra.

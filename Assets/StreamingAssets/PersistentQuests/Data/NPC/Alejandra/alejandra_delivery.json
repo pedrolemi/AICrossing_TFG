@@ -1,0 +1,14 @@
+{
+    "quest_giver_name": "Alejandra",
+    "item": {
+        "id": 4,
+        "amount": 3
+    },
+    "reward": {
+        "friendship_points": 2
+    },
+    "item_provider_name": "Alejandra",
+    "item_receiver_name": "Esteban",
+    "description": "Quiero hacer un pequeño regalo a mi amigo Esteban. ¿Podrías llevarle estos 3 huevos frescos de mi granja? Seguro que le encantarán.",
+    "title": "Pequeño regalo, gran amistad"
+}

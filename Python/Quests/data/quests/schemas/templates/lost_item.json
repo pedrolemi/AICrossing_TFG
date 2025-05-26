@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "urn:quest:template:lost_item",
+    "$ref": "urn:quest:template:base",
+    "type": "object",
+    "properties": {
+        "location_name": {
+            "type": "string",
+            "enum": ["corral", "pozo", "piedra", "acantilado", "huerto", "puente", "cascada", 
+            "casa morada", "casa verde", "casa roja", "casa azul", "plaza oeste", "plaza este"]
+        }
+    },
+    "required": [ "location_name" ],
+    "unevaluatedProperties": false
+}

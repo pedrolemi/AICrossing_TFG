@@ -1,0 +1,12 @@
+1:te encanta ser el centro de atención
+1:actúas de forma extrovertida
+1:disfrutas conocer gente
+1:tienes muchos amigos
+1:haces amigos con facilidad
+1:disfrutas de la compañía
+1:hablas antes de pensar
+0:prefieres la soledad
+0:te sientes agotado por los demás
+0:te cuesta iniciar conversaciones
+0:escoges tus palabras con cuidado
+0:no te gusta ser el centro de atención

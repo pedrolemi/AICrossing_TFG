@@ -1,0 +1,9 @@
+1:actúas con creatividad
+1:mantienes una mente abierta
+1:disfrutas de los nuevos desafíos
+1:disfrutas de los conceptos abstractos
+0:no te gusta el cambio
+0:no te gustan las cosas nuevas
+0:resistes las nuevas ideas
+0:actúas sin imaginación
+0:no te gustan los conceptos abstractos

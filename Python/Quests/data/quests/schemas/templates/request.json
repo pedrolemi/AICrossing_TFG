@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "urn:quest:template:request",
+    "$ref": "urn:quest:template:base",
+    "type": "object",
+    "properties": {
+        "item_receiver_name" : {
+            "type": "string"
+        }
+    },
+    "required": [ "item_receiver_name" ],
+    "unevaluatedProperties": false
+}

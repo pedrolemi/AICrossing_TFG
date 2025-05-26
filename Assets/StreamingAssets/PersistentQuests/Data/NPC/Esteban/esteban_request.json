@@ -1,0 +1,13 @@
+{
+    "quest_giver_name": "Esteban",
+    "item": {
+        "id": 14,
+        "amount": 4
+    },
+    "reward": {
+        "friendship_points": 2
+    },
+    "item_receiver_name": "Esteban",
+    "description": "Estoy por empezar un nuevo proyecto para el pueblo y me vendría bien un poco de ayuda. ¿Podrías traerme 4 tablones de madera? Con eso ya puedo empezar a construir algo bonito que todos podamos disfrutar.",
+    "title": "Madera para la comunidad"
+}

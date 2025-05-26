@@ -1,0 +1,4 @@
+- El personaje que entrega la misión al jugador es: [quest_giver_description].
+- El objetivo de la misión es que el jugador encuentre el siguiente tipo de objeto perdido: [item_id].
+- El lugar donde se ha perdido el objeto es: [location_name].
+- El tema principal de la misión es: [topic].
