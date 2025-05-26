@@ -56,7 +56,7 @@ Se ha desarrollado una herramienta complementaria en Python para generar misione
 
 Puedes encontrar más detalles en:
 
-📁 [Python/README.md](Python/readme.md)
+📁 [Python/README.md](Python/README.md)
 
 ## ⚠️ Aviso sobre *assets* de pago
 
