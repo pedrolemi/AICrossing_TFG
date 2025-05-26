@@ -76,8 +76,8 @@ namespace LLM
                 string result = "";
                 await foreach (string response in inference.RunAsync(chatMemory, inferenceParams, cancellationToken, replacements))
                 {
-                    result = response;
-                    if (stream)
+                    result = response.Trim();
+                    if (stream && !string.IsNullOrEmpty(result))
                     {
                         onHandle?.Invoke(result);
                     }

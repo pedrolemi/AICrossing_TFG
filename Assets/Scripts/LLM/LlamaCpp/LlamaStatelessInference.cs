@@ -31,7 +31,7 @@ namespace LLM
                 await foreach (string chunk in RunInternal(query, inferenceParams, token))
                 {
                     result += chunk;
-                    yield return result;
+                    yield return result.Trim();
                 }
             }
 

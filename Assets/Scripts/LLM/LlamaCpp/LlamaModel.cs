@@ -47,7 +47,7 @@ namespace LLM
             {
                 if (!initializedBackend)
                 {
-                    NativeLlama.llama_backend_init();
+                    await Task.Run(() => NativeLlama.llama_backend_init());
                     initializedBackend = true;
                 }
 

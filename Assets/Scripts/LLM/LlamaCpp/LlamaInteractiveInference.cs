@@ -33,7 +33,7 @@ namespace LLM
                 }
 
                 // Se agrega el texto resultante
-                chatHistory.AddAssistantMessage(result);
+                chatHistory.AddAssistantMessage(result.Trim());
                 string prevMessages = chatHistory.FormatPrompt(chatTemplate, false, true);
                 messagesPrevLen = prevMessages.Length;
             }

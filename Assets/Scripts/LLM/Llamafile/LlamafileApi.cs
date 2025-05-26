@@ -73,7 +73,10 @@ namespace LLM
                         {
                             IEnumerable<string> results = responses.Value.Select(result => result.Content);
                             result = JoinStreamResponses(results);
-                            onHandle?.Invoke(result);
+                            if (!string.IsNullOrEmpty(result))
+                            {
+                                onHandle?.Invoke(result);
+                            }
                         }
                         else
                         {
