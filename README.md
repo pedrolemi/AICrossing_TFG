@@ -41,7 +41,7 @@ También se emplea un servidor de vectores, [Pinecone](https://www.pinecone.io/)
 
 Existe una **pantalla de opciones** al inicio del juego para seleccionar entre los distintos modos de ejecución de los modelos.
 
-También es posible **automatizar la configuración** añadiendo un archivo JSON en la carpeta ```Documentos``, con el siguiente formato:
+También es posible **automatizar la configuración** añadiendo un archivo JSON en la carpeta ```Documentos```, con el siguiente formato:
 ```json
 {
     "groq_cloud": "..."
